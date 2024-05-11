@@ -1,8 +1,6 @@
 # VB-AutoCenter
 
-VB Auto Center
- 
- 
+
 Problem Statement:
  
 Create a project that will be used to determine the total amount due for the purchase of a vehicle.  The application should accept the base price of the vehicle and any trade in allowance.  Also the application should allow for selection of the following options:  Sound System @ $500.00, Leather Interior @ $1000.00, and Computer Navigation @ $1,500.00.  In addition, the customer can choose an exterior finish of: Standard – no cost, Pearlized @ 500.00, or Custom Detailing @ $750.00.  
