@@ -7,7 +7,7 @@ Create a project that will be used to determine the total amount due for the pur
  
 The application should:
 • Calculate the total Accessories and Finish (AF)Price
-• Add the Base Price to the AF Price and determine and display the sales tax (7% of the total).
+• Add the Base Price to the AF Price and determine and display the sales tax (8% of the total).
 • Display the total of the Base Price, AF Price, and the sales tax as a subtotal.
 • Subtract “any” trade in allowance.
 • Display the Total Amount Due.
