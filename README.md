@@ -11,6 +11,8 @@ The application should:
 • Display the total of the Base Price, AF Price, and the sales tax as a subtotal.
 • Subtract “any” trade in allowance.
 • Display the Total Amount Due.
+
+
  
  
 Finally provide controls to “Clear” everything and “Exit” the application.
