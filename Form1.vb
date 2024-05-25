@@ -44,6 +44,7 @@
         End If
     End Sub
     Private Sub Get_Validate_Input(ByRef dblBasePrice As Double, ByRef dblTrade As Double, ByRef blnValidated As Boolean)
+        'Get and Validate Inpuut
         Call Get_Validate_Base_Price(dblBasePrice, blnValidated)
         If blnValidated = True Then
             Call Get_Validate_Trade(dblTrade, blnValidated)
@@ -113,12 +114,14 @@
         End If
     End Sub
     Private Sub Calculate_Tax(ByVal dblBasePrice As Double, ByVal dblAFPrice As Double, ByRef dblTax As Double)
+        ' Calculate Taxes
         dblTax = (dblBasePrice + dblAFPrice) * dblTaxRate
     End Sub
     Private Sub Calculate_SubTotal(ByVal dblBasePrice As Double, ByVal dblAFPrice As Double, ByRef dblSubTotal As Double, ByVal dbltax As Double)
         dblSubTotal = dbltax + dblBasePrice + dblAFPrice
     End Sub
     Private Sub Calcluate_Total(ByVal dblSubTotal As Double, ByVal dblTrade As Double, ByRef dblAmountDue As Double)
+       ' Calculate Amount due
         dblAmountDue = dblSubTotal - dblTrade
     End Sub
     Private Sub Display_Totals(ByVal dblAFPrice As Double, ByVal dblSubTotal As Double, ByVal dblTax As Double, ByVal dblAmountDue As Double)
